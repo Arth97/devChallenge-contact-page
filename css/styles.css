@@ -27,6 +27,7 @@ body {
 	justify-content: space-between;
 	flex-direction: column;
 	background: url('../images/background.svg') no-repeat;
+	background-size: cover;
 }
 
 
