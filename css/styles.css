@@ -48,9 +48,10 @@ body {
 	font-size: 1rem; /* 16px */
 }
 
-.label {
+label {
 	font-family: 'Be Vietnam Pro', sans-serif;
 	font-size: 0.875rem; /* 14px */
+	color: white
 }
 
 .button-text {
@@ -65,6 +66,11 @@ main {
 	align-items: center;
 	row-gap: 0.5rem;
 	column-gap: 1.5rem;
+}
+
+.titles {
+	margin-bottom: 80px;
+	max-width: 670px;
 }
 
 form {
