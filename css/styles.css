@@ -78,7 +78,22 @@ form {
 	height: 615px
 }
 
+.grid-card {
+	background-color: #FFFFFF33;
+	border-radius: 10px;
+	padding: 30px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+	display: grid;
+	grid-template-columns: 50% 50%;
+	/* grid-template-rows: 1fr 1fr; */
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	/*Margen boton en cada input etc...*/
+}
+
 .inputs {
+	width: fit-content;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -92,10 +107,11 @@ input {
 textarea {
 	width: 750px;
 	height: 200px;
+	grid-column: span 2;
 }
 
 button {
-	width: 750px;
+	/* width: 750px; */
 	height: 70px;
 }
 
