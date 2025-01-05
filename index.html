@@ -11,57 +11,64 @@
 </head>
 <body>
 
+	<nav>
+		<div>
+			<img src="../assets/logo.svg" alt="logo">
+		</div>
+	</nav>
+
+	<header>
+		<div class="titles">
+			<h1 style="text-align: center; margin-bottom: 30px">Interested in our business pricing?</h1>
+			<h2 style="text-align: center;">Fill out the form to view details and we'll contact you as soon as possible.</h2>
+		</div>
+	</header>
+	
 	<main>
-	<div>*logo* Becv</div>
-	<div class="titles">
-		<h1 style="text-align: center; margin-bottom: 30px">Interested in our business pricing?</h1>
-		<h2 style="text-align: center;">Fill out the form to view details and we'll contact you as soon as possible.</h2>
-	</div>
+		<section>
+			<form action="submit">
+				<div class="grid-card">
+					
+					<div class="inputs">
+						<label for="name">
+							Name
+						</label>
+						<input type="text">
+					</div>
 
-	<section>
-		<form action="submit">
-			<div class="grid-card parent">
-				
-				<div class="inputs">
-					<label for="name">
-						Name
-					</label>
-					<input type="text">
-				</div>
+					<div class="inputs">
+						<label for="email">
+							Company Email
+						</label>
+						<input type="text">
+					</div>
 
-				<div class="inputs">
-					<label for="email">
-						Company Email
-					</label>
-					<input type="text">
-				</div>
+					<div class="inputs">
+						<label for="company-size">
+							Company Size
+						</label>
+						<input type="text">
+					</div>
 
-				<div class="inputs">
-					<label for="company-size">
-						Company Size
-					</label>
-					<input type="text">
-				</div>
+					<div class="inputs">
+						<label for="subject">
+							Subject
+						</label>
+						<input type="text">
+					</div>
+					
+					<div class="grid-item-5">
+						<label for="message">
+							Message
+						</label>
+						<textarea type="text"></textarea>
+					</div>
+					
+					<input type="submit" value="Contact Sales" class="grid-item-6 button-text">
 
-				<div class="inputs">
-					<label for="subject">
-						Subject
-					</label>
-					<input type="text">
 				</div>
-				
-				<div class="div5">
-					<label for="message">
-						Message
-					</label>
-					<textarea type="text"></textarea>
-				</div>
-				
-				<button class="div6">Contact Sales</button>
-
-			</div>
-		</form>
-	</section>
+			</form>
+		</section>
 	</main>
 
   <script src="script.js"></script>
